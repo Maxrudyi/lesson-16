@@ -573,6 +573,11 @@
 }
 
 
+.subscribe__form--block {
+    display: flex;
+}
+
+
 .subscribe__input {
     width: 570px;
     height: 55px;
@@ -1276,6 +1281,10 @@
                 flex-direction: column;
         margin-top: 45px;
         margin-left: 19%;
+    }
+
+    .subscribe__form--block {
+        display: block;
     }
 
     .subscribe__buttun {
